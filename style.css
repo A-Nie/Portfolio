@@ -1,0 +1,73 @@
+﻿ <style>
+        body {
+            background: #f1f1f1;
+            font-family: sans-serif;
+        }
+
+        #me {
+            text-align: center;
+            border: 1px solid #e1e1e1;
+            background: #FFFFFF
+        }
+
+        #content {
+            border: 1px solid #e1e1e1;
+            padding: 10px;
+            background: #FFFFFF
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        form div {
+            padding: 10px
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table,
+        td,
+        th {
+            /*border: 1px solid black;*/
+            padding: 5px;
+        }
+
+        td,
+        th {
+            border: 1px dotted #cacaca;
+        }
+
+        th {
+            background: #e1e1e1;
+        }
+
+        input,
+        textarea {
+            width: 80%;
+            padding: 5px;
+            display: block;
+        }
+
+        @media (min-width: 600px) {
+            #me {
+
+                /*            min 992px*/
+                float: left;
+                width: 290px;
+            }
+            #content {
+                margin-left: 300px;
+                padding: 40px 20px;
+            }
+
+            table,
+            td,
+            th {
+                /*border: 1px solid black;*/
+                padding: 5px 10px;
+            }
+        }
+    </style>   
